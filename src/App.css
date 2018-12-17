@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+
+
+.App {
+    font-family: 'Exo 2', sans-serif;
+}
+
+
+
+h1 {
+    color: #FFFFFF;
+}
+
+h2 {
+    color: #FE7414;
+}
+
+p {
+    color: #FF0001;
+}
+
+.jumbo {
+    margin-top: 20px;
+    opacity: .85;
+    background-color:black;
+    height: 100%;
+    width: 100%;
+}
+
+.footer {
+    background-color: black;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+.page {
+    background-image: url("./juan-encalada-1205971-unsplash.jpg");
+    background-size: cover;
+    height: 1440px;
+
+}
+
+
+.navbar,.navbar-brand,a,.dropdown,.dropdownmenu,.dropdown-item,li {
+    background-color: black;
+    color: #FF0001;
+    font-family: 'Exo 2', sans-serif;
+}
+
+td,th {
+    color: white;
+}
