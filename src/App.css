@@ -20,9 +20,8 @@ p {
 }
 
 .jumbo {
-    margin-top: 20px;
-    opacity: .85;
-    background-color:black;
+    opacity: .95;
+    background-color: whitesmoke;
     height: 100%;
     width: 100%;
 }
@@ -37,17 +36,17 @@ p {
 .page {
     background-image: url("./juan-encalada-1205971-unsplash.jpg");
     background-size: cover;
-    height: 1440px;
+    height: 100%;
 
 }
 
 
-.navbar,.navbar-brand,a,.dropdown,.dropdownmenu,.dropdown-item,li {
+.navbar,.navbar-brand,a,.dropdown,.dropdownmenu,.dropdown-item {
     background-color: black;
-    color: #FF0001;
+    color: white;
     font-family: 'Exo 2', sans-serif;
 }
 
 td,th {
-    color: white;
+    color: black;
 }
