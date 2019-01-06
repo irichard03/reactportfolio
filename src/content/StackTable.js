@@ -32,14 +32,14 @@ export class StackTable extends React.Component {
             <td className="BackEnd"></td>
             <td className="Databases">MongoDB</td>
             <td className="Frameworks">Express</td>
-            <td className="Langauges">Java</td>
+            <td className="Langauges"></td>
           </tr>
           <tr>
             <td className="FrontEnd">JQuery</td>
             <td></td>
             <td className="Databases">MySql</td>
             <td className="frameworks">Materialize</td>
-            <td className="langauges">C#</td>
+            <td className="langauges"></td>
           </tr>
           <tr>
             <td className="FrontEnd">React</td>
