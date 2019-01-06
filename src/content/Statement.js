@@ -6,7 +6,7 @@ export class Statement extends React.Component {
     return (
         <div>
             <h2>Mission Statement</h2>
-            <p>Build mobile-responsive, feature-rich, full stack solutions for small businesses and non-profits, using scalable low-cost hosting.</p>
+            <p>Team with small business owners, non-profits and entrepreneurs to Build mobile-responsive, feature-rich, full stack solutions while promoting hi-tech education in Houson.</p>
         </div>
     );
   }
