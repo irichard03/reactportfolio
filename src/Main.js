@@ -1,21 +1,40 @@
 //contains routes for displaying tables and dynamic page elements.
 import React, { Component } from 'react';
-import { Jumbotron } from 'react-bootstrap';
-import { Question } from './content/Question.js';
-import { Statement } from './content/Statement.js';
-import { StackTable } from './content/StackTable.js';
+import About from './pages/About.js'
+import Portfolio from './pages/Portfolio.js'
+
 
 
 class Main extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      page: "portfolio",
+    }
+  }
 
+  callbackStateChanger = (callbackState) => {
+    this.setState({page: callbackState });
+  }
+
+  DisplayPage = () =>{
+    
+    if (this.state.page === "portfolio"){
+      return (
+        <Portfolio />
+      );
+    }
+
+    if (this.state.page === "about"){
+      return (
+        <About />
+      );
+    }
+  }
   render() {
     return (
       <div>
-        <Jumbotron className="jumbo">
-          <Statement />
-          <Question />
-          <StackTable />
-        </Jumbotron>
+        {this.DisplayPage()}
       </div>
     );
   }

@@ -39,27 +39,11 @@ export default class HeadNav extends React.Component {
                   <NavLink href="/pages/About">About</NavLink>
               </NavItem>
               <NavItem>
-                  <NavLink href="/components/">Portfolio</NavLink>
+                  <NavLink href="/pages/Portfolio/">Portfolio</NavLink>
               </NavItem>
               <NavItem>
                   <NavLink href="/components/">Contact</NavLink>
               </NavItem>
-              <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret  className="dropdown">
-                 Explore
-                </DropdownToggle>
-                <DropdownMenu className="dropdownmenu" right>
-                  <DropdownItem>
-                  About
-                  </DropdownItem>
-                  <DropdownItem>
-                  Portfolio
-                  </DropdownItem>
-                  <DropdownItem>
-                  Contact
-                  </DropdownItem>
-                </DropdownMenu>
-              </UncontrolledDropdown>
             </Nav>
           </Collapse>
         </Navbar>
