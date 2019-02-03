@@ -15,7 +15,6 @@ export class Portfolio extends React.Component {
                             <a className="gitLink" href={card.repo}>Github</a>
                         </div>
                     ))}
-                    
                 </Jumbotron>
             </div>
         );

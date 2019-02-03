@@ -61,6 +61,13 @@ const cards = [
         repo: "https://github.com/irichard03/WordGuessGame",
         image:"WordGuess.jpg"
     },
+
+    {
+        name: "Vue Liche",
+        link: "https://limitless-sea-54937.herokuapp.com/",
+        repo: "https://github.com/irichard03/vueliche",
+        image:"VueLiche.jpg"
+    },
 ]
 
 export default cards;
