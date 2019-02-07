@@ -1,6 +1,6 @@
 import React from 'react';
 import { Jumbotron } from 'reactstrap';
-import Cards from '../content/Cards.js';
+import Cards from '../Cards.js';
 
 export class Portfolio extends React.Component {
 
