@@ -66,7 +66,7 @@ const cards = [
         name: "Vue Liche",
         link: "https://limitless-sea-54937.herokuapp.com/",
         repo: "https://github.com/irichard03/vueliche",
-        image: "VueLiche.jpg"
+        image: "https://res.cloudinary.com/hicvm2new/image/upload/v1549527495/MyFolder/VueLiche.jpg"
     },
 ]
 
